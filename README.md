@@ -25,18 +25,14 @@ can get tedious. There must be a better way!
 
 ## Installation
 
-The recommended way to install Virtualenv Switcher is to create a virtualenv
-and install into it. After the virtualenv is created, activate it, install
-`virtualenv-switcher` using `pip` and complete the installation by appending
-the `vs` function and its completion configuration to your bash profile:
+Prerequisites: a virtualenv with Python 3.5.
+
+This will install `virtualenv-switcher` using `pip` and append the `vs`
+function and its completion configuration to your bash profile:
 
     (vs-env) $ pip install virtualenv-switcher
     (vs-env) $ vs-install >>~/.bashrc
     (vs-env) $ source ~/.bashrc
-
-After you configure the path for exposing the commands from virtualenvs you
-can run `vs-install -x` and it will expose all the commands provided by
-Virtualenv Switcher.
 
 ## Configuration
 
