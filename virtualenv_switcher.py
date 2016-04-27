@@ -190,7 +190,7 @@ def vs_expose():
     if not os.path.exists(cmd_path):
         sys.exit('No {} command in {}'.format(command, bin_path))
     if not os.access(cmd_path, os.X_OK):
-        sys.exit('{} is not executable')
+        sys.exit('{} is not executable'.format(cmd_path))
 
     with _config() as config:
         match = _match_env(config, '\n impossible \n', env_path, strict=False)
@@ -217,7 +217,7 @@ def vs_path():
             if 'path' in config['general']:
                 print(config['general']['path'])
             else:
-                sys.exit('Path is not set.')
+                sys.exit('Path is not set')
         else:
             config['general']['path'] = args.path
 
