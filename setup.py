@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='virtualenv-switcher',
-    version='0.0.1',
+    version='0.1.1',
     description='Virtualenv switcher.',
     long_description='Facilitate switching between python virtualenvs.',
-    url='https://www.github.org/kvas-it/virtualenv-switcher/',
+    url='https://github.com/kvas-it/virtualenv-switcher/',
     py_modules=['virtualenv_switcher'],
     entry_points={
         'console_scripts': [
@@ -28,6 +28,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
     ]
 )

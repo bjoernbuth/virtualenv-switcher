@@ -25,7 +25,7 @@ can get tedious. There must be a better way!
 
 ## Installation
 
-Prerequisites: a virtualenv with Python 3.5.
+Prerequisites: a virtualenv with Python 3.
 
 This will install `virtualenv-switcher` using `pip` and append the `vs`
 function and its completion configuration to your bash profile:
@@ -56,8 +56,8 @@ via the following commands:
 ## Alternatives
 
 * [Virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/index.html)
-  has some of the functionality of Virtualenv Switcher and quite a bit more on top.
-  The scope of two packages is different: Virtualenvwrapper is a more
+  has some of the functionality of Virtualenv Switcher and quite a bit more on
+  top.  The scope of two packages is different: Virtualenvwrapper is a more
   complete virtualenv management solution whereas this package just makes
-  switching between the environments as easy as possible and does not force
-  any decisions on the user.
+  switching between the environments as easy as possible and does not force any
+  decisions on the user.
